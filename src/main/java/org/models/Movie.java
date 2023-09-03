@@ -1,5 +1,6 @@
 package org.models;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class Movie {
@@ -45,5 +46,9 @@ public class Movie {
                 ", director=" + director +
                 ", actorList=" + actorList +
                 '}';
+    }
+
+    public List<Actor> getListOfActors() {
+        return actorList;
     }
 }
